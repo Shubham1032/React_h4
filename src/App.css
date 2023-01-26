@@ -1,0 +1,91 @@
+*{
+  margin: 0;
+  /* padding: 0; */
+}
+
+.navContect{
+  display: inline;
+  font-family: cursive;
+  font-size: xx-large;
+  margin: 150px;
+  color: white;
+}
+.navContect:active{
+  color: red;
+}
+nav{
+  background-color: blue;
+  color: white;
+  padding: 10px;
+}
+#HeadingStudent{
+  display: inline;
+  font-size: 60px;
+  margin-left: 10px;
+  color: red;
+}
+#AddNew{
+  float: right;
+  width: 260px;
+  height: 60px;
+  margin-right: 140px;
+ border-radius: 35px;
+ font-weight: bolder;
+ font-size: larger;
+}
+table{
+  margin-top: 50px;
+  width: 100%;
+  border: 2px solid black;
+  float: center;
+}
+tr{
+  border: 1px solid black;
+}
+th{
+  border: 1px solid grey;
+  margin: 0;
+}
+td{
+  text-align: center;
+  border: 0;
+}
+.AddInput{
+/* align-items: center;
+ */
+ margin: 100px;
+ width: 250px;
+ height: 50px;
+ background-color:  pink;
+ color: black;
+ font-weight: bolder;
+ border: 1px solid gray;
+
+
+}
+#AddNewCompo{
+  height: 100vh;
+  background-image: linear-gradient(
+    pink,rgb(242, 127, 146)
+  );
+}
+.AddButton{
+  width: 200px;
+  height: 50px;
+  border-radius: 20px;
+  float: right;
+  margin-right: 60px;
+background-color: antiquewhite;
+font-size: x-large;
+font-weight: bold;
+}
+.AddButtonCancle{
+  background-color: gray;
+}
+#StudentMainContainer{
+  height: 100vh;
+  background-image: linear-gradient(
+    skyblue,pink,white
+  );
+  margin-top: -40px;
+}
